@@ -192,7 +192,16 @@ form.contact-form { background: var(--navy-700); border: 1px solid var(--line); 
   .hero-visual { order: -1; max-width: 420px; margin: 0 auto; }
   .values { grid-template-columns: 1fr; }
   .cards-2 { grid-template-columns: 1fr; }
-  .footer-inner { grid-template-columns: 1fr; }
+  .footer-inner { grid-template-columns: 1fr 1fr; gap: 36px 28px; }
+  .footer-inner > div:first-child { grid-column: 1 / -1; text-align: center; padding-bottom: 32px; border-bottom: 1px solid var(--line); }
+  .footer-inner > div:first-child .brand { justify-content: center; }
+  .footer-inner > div:first-child p { margin: 18px auto 0; font-size: .9rem; line-height: 1.75; }
+  .footer-inner li { font-size: .88rem; margin-bottom: 12px; }
+  .footer-inner a { color: var(--ivory-dim); }
+  .footer-inner a:hover { color: var(--gold-light); }
+  .site-footer { padding: 44px 0 24px; }
+  .risk { text-align: center; line-height: 1.7; margin-top: 32px; }
+  .footer-bottom { justify-content: center; text-align: center; }
   .portrait { max-width: 340px; }
   .nav-toggle { display: block; }
   .main-nav { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--navy-900); border-bottom: 1px solid var(--line); padding: 12px 24px 24px; }
