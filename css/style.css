@@ -232,3 +232,8 @@ form.contact-form { background: var(--navy-700); border: 1px solid var(--line); 
 .note { max-width: 780px; margin: 48px auto 0; padding: 28px 32px; border-left: 2px solid var(--gold); background: rgba(212,176,106,.06); }
 .note h3 { font-size: 1.4rem; margin-bottom: 8px; }
 .note p { margin: 0; }
+
+/* ---------- Notre objectif ---------- */
+.objective-quote { font-family: var(--serif); font-style: italic; font-size: clamp(1.5rem, 3vw, 2rem); color: var(--gold-light); line-height: 1.35; margin-top: 4px; }
+.objective-intro { margin-top: 22px; font-size: 1.15rem; line-height: 1.75; color: var(--ivory-dim); }
+.section-head.center { max-width: 820px; }
