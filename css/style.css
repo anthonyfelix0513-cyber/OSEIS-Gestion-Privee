@@ -235,5 +235,5 @@ form.contact-form { background: var(--navy-700); border: 1px solid var(--line); 
 
 /* ---------- Notre objectif ---------- */
 .objective-quote { font-family: var(--serif); font-style: italic; font-size: clamp(1.5rem, 3vw, 2rem); color: var(--gold-light); line-height: 1.35; margin-top: 4px; }
-.objective-intro { margin-top: 22px; font-size: 1.15rem; line-height: 1.75; color: var(--ivory-dim); }
+.objective-intro { text-align: justify; text-align-last: center; hyphens: auto; -webkit-hyphens: auto; margin-top: 22px; font-size: 1.15rem; line-height: 1.75; color: var(--ivory-dim); }
 .section-head.center { max-width: 820px; }
