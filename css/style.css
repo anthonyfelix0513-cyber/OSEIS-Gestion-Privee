@@ -217,3 +217,18 @@ form.contact-form { background: var(--navy-700); border: 1px solid var(--line); 
   .hero { padding: 56px 0 64px; }
 }
 
+
+/* ---------- Offres ---------- */
+.offers { align-items: stretch; margin-top: 8px; }
+.offer { display: flex; flex-direction: column; }
+.offer-tag { align-self: flex-start; font-size: .85rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); border: 1px solid var(--line); padding: 4px 12px; margin-bottom: 18px; }
+.offer h3 { font-size: 1.7rem; }
+.offer-goal { font-style: italic; color: var(--ivory) !important; font-size: 1.2rem !important; margin-bottom: 8px; }
+.offer ul { flex: 1; margin-bottom: 24px; }
+.offer-fee { border-top: 1px solid var(--gold-dark); padding-top: 18px; }
+.offer-fee small { display: block; font-size: .8rem; font-weight: 700; letter-spacing: .24em; text-transform: uppercase; color: var(--gold); }
+.offer-fee strong { display: block; font-family: var(--serif); font-size: 2.2rem; color: var(--ivory); line-height: 1.2; }
+.offer-fee span { font-size: 1rem; line-height: 1.5; display: block; }
+.note { max-width: 780px; margin: 48px auto 0; padding: 28px 32px; border-left: 2px solid var(--gold); background: rgba(212,176,106,.06); }
+.note h3 { font-size: 1.4rem; margin-bottom: 8px; }
+.note p { margin: 0; }
