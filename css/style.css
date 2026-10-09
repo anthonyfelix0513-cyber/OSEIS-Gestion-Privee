@@ -85,7 +85,7 @@ h3 { font-size: 1.45rem; }
   background: radial-gradient(ellipse at 75% 40%, #0b2a55 0%, var(--navy-800) 55%, var(--navy-900) 100%);
   padding: 96px 0 104px;
 }
-.hero-grid { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: 56px; align-items: center; }
+.hero-grid { display: grid; grid-template-columns: 1.25fr 0.75fr; gap: 56px; align-items: center; }
 .hero h1 span { color: var(--gold); }
 .hero .lead { font-family: var(--serif); font-size: clamp(1.35rem, 2.4vw, 1.7rem); font-weight: 500; line-height: 1.5; max-width: 560px; color: var(--ivory); margin-top: 8px; }
 .hero-visual { position: relative; display: grid; place-items: center; }
@@ -239,3 +239,39 @@ form.contact-form { background: var(--navy-700); border: 1px solid var(--line); 
 .section-head.center { max-width: 820px; }
 
 .card p.justify { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+
+/* ---------- Accueil : carte OSEIS à droite ---------- */
+.hero-visual { width: 100%; }
+.card-photo { position: relative; width: 100%; filter: drop-shadow(0 28px 34px rgba(0,0,0,.55)); }
+.card-photo__inner { position: relative; width: 100%; aspect-ratio: 975 / 586; overflow: hidden;
+  clip-path: polygon(0.4% 23.5%, 82.9% 0.7%, 99.2% 70.1%, 10.9% 99.7%); }
+.card-photo img { position: absolute; width: 157.5%; max-width: none; height: auto; left: -8.2%; top: -6.14%; }
+
+/* Texte d'accroche justifié */
+.hero h1 { text-align: justify; }
+.hero .lead { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+
+/* ---------- Portrait du fondateur ---------- */
+.portrait--photo { background: var(--navy-900); overflow: hidden; display: block; aspect-ratio: 4 / 5; }
+.portrait--photo::after { z-index: 2; }
+.portrait--photo img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 22%; display: block; }
+.portrait--photo figcaption { z-index: 3; bottom: 0; padding: 60px 0 22px; background: linear-gradient(180deg, transparent, rgba(2,15,36,.88)); }
+
+/* ---------- Sélecteur de langue ---------- */
+.main-nav li.lang { position: relative; }
+.lang-btn { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--ivory); border: 1px solid var(--line); padding: 8px 12px; cursor: pointer; font: inherit; font-weight: 600; font-size: .95rem; letter-spacing: .1em; }
+.lang-btn:hover, .lang-btn[aria-expanded="true"] { border-color: var(--gold); color: var(--gold-light); }
+.lang-btn img, .lang-menu img { width: 22px; height: 15px; object-fit: cover; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255,255,255,.18); }
+.lang-btn .caret { font-size: .7rem; color: var(--gold); }
+.main-nav .lang-menu { position: absolute; right: 0; top: calc(100% + 8px); min-width: 170px; display: block; list-style: none; background: var(--navy-900); border: 1px solid var(--line); box-shadow: 0 18px 40px rgba(0,0,0,.55); padding: 6px; z-index: 60; }
+.lang-menu[hidden] { display: none; }
+.main-nav .lang-menu li { display: block; }
+.lang-menu button { display: flex; align-items: center; gap: 10px; width: 100%; background: transparent; border: 0; color: var(--ivory-dim); padding: 10px 12px; cursor: pointer; font: inherit; font-size: 1rem; text-align: left; }
+.lang-menu button:hover, .lang-menu button[aria-selected="true"] { background: rgba(212,176,106,.12); color: var(--gold-light); }
+@media (max-width: 1000px) {
+  .main-nav li.lang { margin-top: 12px; }
+  .lang-btn { width: 100%; justify-content: center; }
+  .main-nav .lang-menu { position: static; box-shadow: none; margin-top: 8px; }
+}
+.hero h1 { font-size: clamp(2.3rem, 3.7vw, 3.35rem); line-height: 1.2; }
+.hero .lead { max-width: none; }

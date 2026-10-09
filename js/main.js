@@ -45,6 +45,6 @@ if (form) {
       d.get("message"),
     ].join("\n");
     window.location.href = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    status.textContent = "Votre messagerie va s'ouvrir avec le message prêt à envoyer. Merci de votre confiance.";
+    status.textContent = document.documentElement.lang === "en" ? "Your email app will open with the message ready to send. Thank you for your trust." : "Votre messagerie va s’ouvrir avec le message prêt à envoyer. Merci de votre confiance.";
   });
 }
