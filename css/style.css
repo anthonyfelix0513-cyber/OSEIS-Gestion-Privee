@@ -240,12 +240,7 @@ form.contact-form { background: var(--navy-700); border: 1px solid var(--line); 
 
 .card p.justify { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 
-/* ---------- Accueil : carte OSEIS à droite ---------- */
 .hero-visual { width: 100%; }
-.card-photo { position: relative; width: 100%; filter: drop-shadow(0 28px 34px rgba(0,0,0,.55)); }
-.card-photo__inner { position: relative; width: 100%; aspect-ratio: 975 / 586; overflow: hidden;
-  clip-path: polygon(0.4% 23.5%, 82.9% 0.7%, 99.2% 70.1%, 10.9% 99.7%); }
-.card-photo img { position: absolute; width: 157.5%; max-width: none; height: auto; left: -8.2%; top: -6.14%; }
 
 /* Texte d'accroche justifié */
 .hero h1 { text-align: justify; }
@@ -275,3 +270,34 @@ form.contact-form { background: var(--navy-700); border: 1px solid var(--line); 
 }
 .hero h1 { font-size: clamp(2.3rem, 3.7vw, 3.35rem); line-height: 1.2; }
 .hero .lead { max-width: none; }
+
+/* ---------- Accueil : carte OSEIS épurée ---------- */
+.card-flat { position: relative; width: 100%; max-width: 480px; border-radius: 10px; overflow: hidden;
+  box-shadow: 0 22px 50px rgba(0,0,0,.45), 0 0 0 1px rgba(212,176,106,.28); }
+.card-flat img { width: 100%; height: auto; display: block; }
+
+/* ---------- Notre objectif : paysage + panneau, sur fond blanc ---------- */
+section.block.light { background: #fff; padding: 96px 0; }
+.feature { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; }
+.feature-img { position: relative; z-index: 1; margin-right: -56px; box-shadow: 0 20px 50px rgba(2,15,36,.22); }
+.feature-img img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: 60% 50%; display: block; }
+.feature-panel { position: relative; z-index: 2; background: var(--navy-800); padding: 60px 56px; box-shadow: 0 24px 60px rgba(2,15,36,.28); }
+.feature-panel h2 { text-transform: uppercase; letter-spacing: .05em; font-size: clamp(1.7rem, 3vw, 2.3rem); color: var(--ivory); }
+.feature-panel .rule { background: var(--ivory); margin: 20px 0 24px; }
+.feature-panel .objective-quote { text-align: left; font-size: clamp(1.25rem, 2vw, 1.55rem); margin: 0 0 18px; }
+.feature-panel .objective-intro { margin: 0; text-align: justify; text-align-last: left; font-size: 1.12rem; line-height: 1.7; color: var(--ivory-dim); }
+.duo { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin-top: 72px; }
+.duo > div { padding: 0 48px; }
+.duo > div:first-child { padding-left: 0; border-right: 1px solid rgba(168,133,74,.45); }
+.duo > div:last-child { padding-right: 0; }
+.duo h3 { color: var(--navy-800); font-size: 1.7rem; margin-bottom: 12px; }
+.duo p { color: #2e3a52; font-size: 1.15rem; line-height: 1.7; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+@media (max-width: 1000px) {
+  section.block.light { padding: 56px 0; }
+  .feature { grid-template-columns: 1fr; }
+  .feature-img { margin-right: 0; }
+  .feature-panel { padding: 40px 28px; margin: -28px 16px 0; }
+  .duo { grid-template-columns: 1fr; margin-top: 48px; }
+  .duo > div, .duo > div:first-child, .duo > div:last-child { padding: 0; border: 0; }
+  .duo > div:first-child { margin-bottom: 32px; }
+}
