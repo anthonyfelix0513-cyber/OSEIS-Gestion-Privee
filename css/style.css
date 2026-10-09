@@ -373,3 +373,24 @@ section.block.light--flush { padding-top: 0; }
 .light .card .num { color: var(--gold-dark); }
 .light .card h3 { color: var(--navy-800); }
 .light .card p { color: #2e3a52; }
+
+/* ---------- Page Contact : fond blanc ---------- */
+body.page-light { background: #fff; color: #2b3547; }
+.page-light .page-hero { background: #fff; border-bottom: 1px solid rgba(168,133,74,.35); }
+.page-light .page-hero h1 { color: var(--navy-800); }
+.page-light .page-hero .eyebrow { color: var(--gold-dark); }
+.page-light .page-hero .rule { background: var(--gold-dark); }
+.page-light .page-hero p { color: #2e3a52; }
+.page-light section.block h2 { color: var(--navy-800); }
+.page-light section.block .rule { background: var(--gold-dark); }
+.page-light .info-list li { border-color: rgba(168,133,74,.35); }
+.page-light .info-list small { color: var(--gold-dark); }
+.page-light .info-list span { color: var(--navy-800); }
+.page-light form.contact-form { background: #f6f2e9; border: 1px solid #e4dccb; box-shadow: 0 14px 34px rgba(2,15,36,.07); }
+.page-light .field label { color: #8a6a32; }
+.page-light .field input, .page-light .field select, .page-light .field textarea { background: #fff; border: 1px solid #d9cfba; color: var(--navy-800); }
+.page-light .field input:focus, .page-light .field select:focus, .page-light .field textarea:focus { outline-color: var(--gold-dark); border-color: var(--gold-dark); }
+.page-light .consent, .page-light .form-note { color: #2e3a52; }
+.page-light .form-status { color: #8a6a32; }
+.page-light .consent input { accent-color: var(--gold-dark); }
+.page-light .site-footer { color: var(--ivory-dim); }
