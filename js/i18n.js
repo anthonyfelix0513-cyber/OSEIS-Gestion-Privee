@@ -17,7 +17,7 @@
     ["OSEIS accompagne les familles, les dirigeants et les professions libérales", "OSEIS supports families, business owners and independent professionals in building, protecting and passing on their wealth — with rigour, independence and discretion."],
     ["Découvrir notre expertise", "Discover our expertise"],
     ["Notre objectif", "Our objective"],
-    ["« Une expertise de Banque Privée au service de votre stratégie patrimoniale »", "“Private Banking expertise at the service of your wealth strategy”"],
+    ["« Une expertise de Family Office au service de votre stratégie patrimoniale »", "“Family Office expertise at the service of your wealth strategy”"],
     ["Dans un monde de plus en plus complexe et incertain", "In an increasingly complex and uncertain world, your wealth needs consistency, direction and security. Founded by Franck Bonin, former CEO of Société Générale Private Banking Switzerland, OSEIS Gestion Privée draws on solid experience in wealth management in France and internationally. It informs a demanding approach to advice, attentive to your objectives and to the long-term strength of your wealth."],
     ["Une vision d'ensemble de votre patrimoine", "A complete view of your wealth"],
     ["Vos investissements, vos projets de vie", "Your investments, your life plans and your financing choices are all strategic orientations that call for particular attention. We help you bring them together in a wealth strategy that combines expertise, performance and security."],
