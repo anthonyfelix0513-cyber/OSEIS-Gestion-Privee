@@ -301,3 +301,35 @@ section.block.light { background: #fff; padding: 96px 0; }
   .duo > div, .duo > div:first-child, .duo > div:last-child { padding: 0; border: 0; }
   .duo > div:first-child { margin-bottom: 32px; }
 }
+
+/* ---------- Notre savoir-faire : photos + panneaux crème, sur fond blanc ---------- */
+section.block.light--flush { padding-top: 0; }
+.light .section-head h2 { color: var(--navy-800); }
+.light .section-head .eyebrow { color: var(--gold-dark); }
+.light .section-head .rule { background: var(--gold-dark); }
+.light .section-head { margin-bottom: 44px; }
+.split-feature { display: grid; grid-template-columns: 1fr 1fr; background: #ebe7dc; box-shadow: 0 18px 44px rgba(2,15,36,.12); margin-top: 36px; }
+.split-feature:first-of-type { margin-top: 0; }
+.sf-img { position: relative; min-height: 420px; overflow: hidden; }
+.sf-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.split-feature--reverse .sf-img { order: 2; }
+.sf-panel { display: flex; flex-direction: column; justify-content: center; padding: 56px 64px; }
+.sf-panel h3 { color: #1d2433; font-size: clamp(1.9rem, 3vw, 2.6rem); font-weight: 500; line-height: 1.15; }
+.sf-panel .rule { background: var(--gold-dark); width: 56px; height: 2px; margin: 24px 0 26px; }
+.sf-panel p { color: #2b2f3a; font-size: 1.2rem; line-height: 1.7; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+@media (max-width: 1000px) {
+  .split-feature { grid-template-columns: 1fr; }
+  .split-feature--reverse .sf-img { order: 0; }
+  .sf-img { min-height: 260px; }
+  .sf-panel { padding: 36px 26px; }
+}
+.split-feature:not(.split-feature--reverse) .sf-img img { object-position: 50% 12%; }
+@media (max-width: 1000px) { .sf-img { min-height: 340px; } }
+
+/* Notre objectif : panneau beige clair, en écho à la photo */
+.feature-panel { background: #ebe7dc; box-shadow: 0 24px 60px rgba(2,15,36,.16); }
+.feature-panel .eyebrow { color: var(--gold-dark); }
+.feature-panel h2 { color: #1d2433; }
+.feature-panel .rule { background: var(--gold-dark); }
+.feature-panel .objective-quote { color: #8a6a32; }
+.feature-panel .objective-intro { color: #2b2f3a; }

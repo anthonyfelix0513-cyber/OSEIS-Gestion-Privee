@@ -26,6 +26,7 @@
     ["Notre savoir-faire", "Our expertise"],
     ["Une double compétence", "A dual skill set"],
     ["Ingénierie patrimoniale", "Wealth engineering"],
+    ["L'ingénierie patrimoniale", "Wealth engineering"],
     ["Une maîtrise approfondie de l'ingénierie patrimoniale", "In-depth mastery of French and international wealth engineering, to structure and optimise complex estates. It serves discerning clients who wish to secure their wealth in complete confidentiality."],
     ["Vision internationale", "International perspective"],
     ["Une vision internationale de la gestion d'actifs", "An international perspective on asset management and structured financing. It allows us to choose, with full independence, the partners best suited to provide you with the best investment and tailored financing solutions."],
