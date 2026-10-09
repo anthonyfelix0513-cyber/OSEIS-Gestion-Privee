@@ -362,3 +362,7 @@ section.block.light--flush { padding-top: 0; }
 .feature-panel .objective-quote { margin-bottom: 14px; }
 .feature-panel .objective-intro { font-size: 1.08rem; line-height: 1.62; }
 @media (max-width: 1000px) { .feature-panel { padding: 34px 26px; } }
+
+/* « Notre savoir-faire » : libellé agrandi de 2 points */
+.light .section-head .eyebrow { font-size: calc(.9rem + 2pt); }
+.split-feature:not(.split-feature--reverse) .sf-img img { object-position: 50% 50%; }
