@@ -366,3 +366,10 @@ section.block.light--flush { padding-top: 0; }
 /* « Notre savoir-faire » : libellé agrandi de 2 points */
 .light .section-head .eyebrow { font-size: calc(.9rem + 2pt); }
 .split-feature:not(.split-feature--reverse) .sf-img img { object-position: 50% 50%; }
+
+/* Cartes sur fond blanc (Notre méthode) */
+.light .card { background: #fff; border: 1px solid #e6dfcf; border-top: 2px solid var(--gold-dark); box-shadow: 0 14px 34px rgba(2,15,36,.08); }
+.light .card:hover { border-color: var(--gold-dark); }
+.light .card .num { color: var(--gold-dark); }
+.light .card h3 { color: var(--navy-800); }
+.light .card p { color: #2e3a52; }

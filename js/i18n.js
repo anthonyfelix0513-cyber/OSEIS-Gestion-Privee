@@ -32,7 +32,7 @@
     ["Une vision internationale de la gestion d'actifs", "An international perspective on asset management and structured financing. It allows us to choose, with full independence, the partners best suited to provide you with the best investment and tailored financing solutions."],
     ["Notre méthode", "Our method"],
     ["Un accompagnement en trois temps", "Support in three stages"],
-    ["Comprendre", "Understand"],
+    ["Écouter", "Listen"],
     ["Vos objectifs, votre organisation patrimoniale", "Your objectives, how your wealth is organised and the decisions ahead."],
     ["Construire", "Build"],
     ["Une feuille de route patrimoniale et une planification", "A wealth roadmap and financial plan that take your family and tax situation into account."],
