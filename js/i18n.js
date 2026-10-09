@@ -46,7 +46,7 @@
     ["Transmission", "Wealth transfer"],
     ["Anticiper la donation et la succession", "Plan gifts and inheritance ahead to protect your loved ones and optimise the transfer."],
     ["Voir toute l'expertise", "See all our expertise"],
-    ["« Un patrimoine bien conduit est un cap", "“Well-managed wealth is a compass: it gives freedom today and peace of mind tomorrow.”"],
+    ["« Oser anticiper aujourd'hui, c'est offrir à son patrimoine la sérénité de demain. »", "“Daring to plan ahead today means giving your wealth peace of mind tomorrow.”"],
     ["Franck BONIN — Fondateur d'OSEIS", "Franck BONIN — Founder of OSEIS"],
     ["Premier échange", "First conversation"],
     ["Parlons de votre projet", "Let’s talk about your project"],
