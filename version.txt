@@ -1,0 +1,8 @@
+OSEIS Gestion Privée — version publiée le 11/11/2026 à 21:09 (commit c2cf02c)
+
+Si vous lisez ce texte, vous êtes bien sur le site à jour.
+Contenu de cette version :
+- Nos offres : une bande horizontale par offre, photo à gauche, texte à droite (Premium, Business, First)
+- Expertise : 4 savoir-faire complets avec sous-thèmes
+- Mentions légales complètes avec sommaire
+- Pages Contact et Fondateur sur fond blanc
