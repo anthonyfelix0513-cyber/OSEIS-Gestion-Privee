@@ -597,3 +597,8 @@ html[lang="en"] .legal-en-note { display: block; }
   .offer-card { grid-template-columns: 1fr; }
   .offer-card__img { min-height: 220px; }
 }
+
+/* Page Fondateur : fond blanc */
+.page-light .prose p { color: #2b2f3a; }
+.page-light .prose h2 { color: var(--navy-800); }
+.page-light .prose .rule { background: var(--gold-dark); }
