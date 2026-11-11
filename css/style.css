@@ -563,3 +563,20 @@ html[lang="en"] .legal-en-note { display: block; }
   .offer-card .offer-fee strong { font-size: 1.9rem; }
   .offer-card .offer-tag { font-size: .72rem; letter-spacing: .14em; }
 }
+
+/* ---------- Expertise : détail de chaque savoir-faire ---------- */
+.expertise-list .expertise + .expertise { margin-top: 104px; }
+.feature-panel .panel-lead { font-style: italic; font-size: 1.3rem !important; line-height: 1.45 !important; color: #1d2433 !important; text-align: left !important; margin-bottom: 14px !important; }
+.feature-panel > p:not([class]) + p:not([class]) { margin-top: 14px; }
+.detail-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; margin-top: 40px; }
+.detail-grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.detail { background: #fff; border: 1px solid #e6dfcf; border-top: 2px solid var(--gold-dark); padding: 28px 28px 22px; box-shadow: 0 12px 30px rgba(2,15,36,.06); }
+.detail h4 { font-family: var(--serif); font-size: 1.4rem; font-weight: 600; line-height: 1.25; color: var(--navy-800); margin-bottom: 12px; }
+.detail p { color: #2b2f3a; font-size: 1.06rem; line-height: 1.62; margin: 0 0 10px; }
+.detail .risk { font-size: .98rem; line-height: 1.55; color: #4b3a1a; background: #f6f2e9; border-left: 3px solid var(--gold-dark); padding: 10px 14px; margin-top: 12px; }
+.expertise .callout { margin-top: 26px; color: #2e3a52; font-size: 1.06rem; line-height: 1.6; }
+@media (max-width: 1000px) {
+  .expertise-list .expertise + .expertise { margin-top: 64px; }
+  .detail-grid, .detail-grid--2 { grid-template-columns: 1fr; gap: 18px; margin-top: 28px; }
+  .detail { padding: 22px 20px 16px; }
+}
