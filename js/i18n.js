@@ -180,7 +180,7 @@
   const cache = [];
   (function walk(el) {
     const tag = el.tagName;
-    if (tag === "SCRIPT" || tag === "STYLE" || tag.toLowerCase() === "svg" || el.classList.contains("lang") || el.classList.contains("nav-toggle")) return;
+    if (tag === "SCRIPT" || tag === "STYLE" || tag.toLowerCase() === "svg" || el.classList.contains("lang") || el.classList.contains("nav-toggle") || el.hasAttribute("data-no-i18n")) return;
     const direct = [...el.childNodes].some((n) => n.nodeType === 3 && norm(n.textContent));
     const blockKid = [...el.children].some((c) => BLOCK.has(c.tagName.toUpperCase()));
     if (direct && !blockKid) { cache.push({ el, key: norm(el.textContent), fr: el.innerHTML }); return; }
